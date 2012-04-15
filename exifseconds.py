@@ -52,7 +52,8 @@ def fix_date_time(image_path):
         raw = tag.raw_value
     except:
         tag = None
-            
+        raw = None
+
     if type(raw)==type('') and pattern.match(raw):
         corrected_string = "%s:00" % raw
         corrected_datetime = datetime.strptime(corrected_string, '%Y:%m:%d %H:%M:%S')          
