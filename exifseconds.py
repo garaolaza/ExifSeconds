@@ -19,7 +19,7 @@
 # HTC Tattoo's timestamps are buggy. This program
 # solves this problem in your photos
 # 
-# Dependencies: You will need pyexiv2 library (v 3.0 )installed on your system to run it
+# Dependencies: You will need pyexiv2 library (v 3.0)installed on your system to run it
 #
 #
 # Usage:  python exifseconds.py <PATH_TO_FIX_FILES>
